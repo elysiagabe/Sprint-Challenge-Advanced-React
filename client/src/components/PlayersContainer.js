@@ -5,7 +5,7 @@ const PlayersContainer = (props) => {
     console.log('Players container props:', props);
 
     return (
-        <div>
+        <div class="players-container">
             {props.players.map(player => {
                 return (
                     <PlayerCard 
