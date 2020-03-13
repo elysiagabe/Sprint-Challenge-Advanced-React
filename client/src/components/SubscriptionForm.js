@@ -34,7 +34,7 @@ const SubscriptionForm = () => {
                     value={values.email}
                     onChange={handleChanges}
                 />
-                <button type="submit">Sign Up</button>
+                <button type="submit">Submit</button>
                 <button onClick={clearForm}>Nevermind</button>
             </form>
         </div>

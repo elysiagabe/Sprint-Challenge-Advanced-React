@@ -12,4 +12,5 @@ it('renders without crashing', () => {
 test('renders app header', () => {
   const { getByText } = render(<App />);
   getByText(/100 most searched women's world cup players/i)
+  getByText(/data collected by google trends from June-July 2019/i)
 })
