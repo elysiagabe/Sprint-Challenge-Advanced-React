@@ -32,9 +32,9 @@ class App extends React.Component {
     return (
       <div className="App">
         <header>
-          <h1>Women's Soccer Search Data</h1>
+          <h1>100 Most Searched Women's World Cup Players</h1>
+          <h2 className="subtitle">Data collected by Google Trends from June-July 2019, worldwide.</h2>
         </header>
-        <p>Player Info below:</p>
         <PlayersContainer players={this.state.playerInfo} />
         <SubscriptionForm />
       </div>
