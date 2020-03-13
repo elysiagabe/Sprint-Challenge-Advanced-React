@@ -4,6 +4,7 @@ import axios from 'axios';
 import './App.css';
 // components
 import PlayersContainer from './components/PlayersContainer';
+import SubscriptionForm from './components/SubscriptionForm'
 
 class App extends React.Component {
   constructor() {
@@ -35,6 +36,7 @@ class App extends React.Component {
         </header>
         <p>Player Info below:</p>
         <PlayersContainer players={this.state.playerInfo} />
+        <SubscriptionForm />
       </div>
     );
   }
